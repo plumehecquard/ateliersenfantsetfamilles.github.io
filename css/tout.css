@@ -1,0 +1,1288 @@
+body{
+background-color:white;
+margin:0;
+}
+
+
+h1{
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size:4em;
+  color: white;
+  line-height: 1.2em;
+  padding:20px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+a {
+    font-family: 'Fraunces', serif;
+  font-weight: 800;
+  font-size:2.5em;
+  color: white;
+  line-height: 1.2em;
+  padding:5px;
+  text-align:center;
+  vertical-align:middle;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+p{
+  font-family: 'Fraunces', serif;
+  font-weight: 800;
+  line-height: 1.2em;
+  padding:20px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+#lieu{
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size:2.5em;
+}
+
+
+#info{
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size:2em;
+  padding: 50px;
+}
+
+#texte{
+  color: white;
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size:1.3em;
+  padding: 50px;
+}
+
+img{
+  max-width:100%;
+  max-height:100%;
+  width:auto;
+  height:auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  vertical-align:middle;
+}
+
+.wrapper{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap:15px;
+grid-auto-rows:minmax(100px, auto);
+height:250vh;
+}
+
+/*page1*/
+
+.archione{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:blue;
+  grid-column:1/3;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.architwo{
+  display:none;
+  background-color:pink;
+  grid-column:2;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.archithree{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:yellow;
+  grid-column:3;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.archifour{
+  background-color:white;
+  background-image:url(imgs/archi1.jpg);
+  background-position: center;
+  grid-column:1;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.archifive{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:pink;
+  grid-column:2;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.archisix{
+  background-color:white;
+  background-image:url(imgs/archi2.jpg);
+  background-position: center;
+  grid-column:3;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.archiseven{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:red;
+  grid-column:1/4;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.archieight{
+  display: none;
+  background-color:pink;
+  grid-column:2;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.archinine{
+  display: none;
+  background-color:pink;
+  grid-column:3;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.architen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:yellow;
+  grid-column:1;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.archieleven{
+  background-color:white;
+  background-image:url(imgs/archi3.jpg);
+  background-position: center;
+  grid-column:2;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.architwelve{
+  background-color:white;
+  background-image:url(imgs/archi4.jpg);
+  background-position: center;
+  grid-column:3;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.archithirteen{
+  background-color:white;
+  background-image:url(imgs/archi6.jpg);
+  background-position: center;
+  grid-column:2;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.archifourteen{
+  background-color:white;
+  background-image:url(imgs/archi5.jpg);
+  background-position: center;
+  grid-column:1;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.archififteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:red;
+  grid-column:3;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.archisixteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  grid-column:1;
+  grid-row:6;
+  border-radius:20px;
+}
+
+.archiseventeen{
+  background-color:white;
+  grid-column:2;
+  grid-row:6;
+  border-radius:20px;
+}
+
+.archieighteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87CEEB;
+  grid-column:3;
+  grid-row:6;
+  border-radius:20px;
+}
+
+/*fin page1 */
+
+/* page 2*/
+
+.papierone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:blue;
+  grid-column:1/3;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.papiertwo{
+  display:none;
+  background-color:pink;
+  grid-column:2;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.papierthree{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:yellow;
+  grid-column:3;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.papierfour{
+  min-height: 250px;
+  background-image:url(imgs/papiers4.jpg);
+  background-position: center;
+  grid-column:1;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.papierfive{
+  min-height: 250px;
+  background-color:white;
+  background-image:url(imgs/papiers5.jpg);
+  background-position: center;
+  grid-column:2;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.papiersix{
+  min-height: 250px;
+  background-color:white;
+  background-image:url(imgs/papiers3.jpg);
+  background-position: center;
+  grid-column:3;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.papierseven{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:red;
+  grid-column:1/4;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.papiereight{
+  display: none;
+  background-color:pink;
+  grid-column:2;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.papiernine{
+  display: none;
+  background-color:pink;
+  grid-column:3;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.papierten{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:pink;
+  grid-column:1;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.papiereleven{
+  background-color:white;
+  background-image:url(imgs/papiers2.jpg);
+  background-position: center;
+  grid-column:2;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.papiertwelve{
+  background-color:white;
+  background-image:url(imgs/papiers1.jpg);
+  background-position: center;
+  grid-column:3;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.papierthirteen{
+  background-color:white;
+  background-image:url(imgs/papiers6.jpg);
+  background-position: center;
+  grid-column:1;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.papierfourteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:yellow;
+  grid-column:2;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.papierfifteen{
+  background-color:white;
+  background-image:url(imgs/petitpapier4.jpg);
+  background-position: center;
+  grid-column:3;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.papiersixteen{
+  background-color:white;
+  background-image:url(imgs/petitpapier5.jpg);
+  background-position: center;
+  grid-column:1;
+  grid-row:6;
+  border-radius:20px;
+}
+
+.papierseventeen{
+  background-color:white;
+  background-image:url(imgs/petitpapier2.jpg);
+  background-position: center;
+  grid-column:2;
+  grid-row:6;
+  border-radius:20px;
+}
+
+.papiereighteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:red;
+  grid-column:3;
+  grid-row:6;
+  border-radius:20px;
+}
+
+.papiernineteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87CEEB;
+  grid-column:1;
+  grid-row:7;
+  border-radius:20px;
+}
+
+.papiertwenty{
+  background-color:white;
+  grid-column:2;
+  grid-row:7;
+  border-radius:20px;
+}
+
+.papiertwentyone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87CEEB;
+  grid-column:3;
+  grid-row:7;
+  border-radius:20px;
+}
+
+/* fin page 2 */
+
+/* page 3 */
+
+.conteone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:blue;
+  grid-column:1/3;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.contetwo{
+  display:none;
+  background-color:pink;
+  grid-column:2;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.contethree{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:yellow;
+  grid-column:3;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.contefour{
+  background-color:white;
+  grid-column:1;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.contefive{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:pink;
+  grid-column:2;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.contesix{
+  background-color:white;
+  background-image:url(imgs/baang4.jpg);
+  background-position: center;
+  grid-column:3;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.conteseven{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:red;
+  grid-column:1/4;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.conteeight{
+  display: none;
+  background-color:pink;
+  grid-column:2;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.contenine{
+  display: none;
+  background-color:pink;
+  grid-column:3;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.conteten{
+  background-color:white;
+  background-image:url(imgs/baang5.jpg);
+  background-position: center;
+  grid-column:1;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.conteeleven{
+  background-color:white;
+  background-image:url(imgs/baang6.jpg);
+  background-position: center;
+  grid-column:2;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.contetwelve{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:yellow;
+  grid-column:3;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.contethirteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:red;
+  grid-column:1;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.contefourteen{
+  background-color:white;
+  background-image:url(imgs/baang8.jpg);
+  background-position: center;
+  grid-column:2;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.contefifteen{
+  background-color: white;
+  background-image:url(imgs/baang9.jpg);
+  background-position: center;
+  grid-column:3;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.contesixteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87CEEB;
+  grid-column:1;
+  grid-row:6;
+  border-radius:20px;
+}
+
+.conteseventeen{
+  background-color:white;
+  grid-column:2;
+  grid-row:6;
+  border-radius:20px;
+}
+
+.conteeighteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87CEEB;
+  grid-column:3;
+  grid-row:6;
+  border-radius:20px;
+}
+
+/*fin page 3 */
+
+/*page 4 */
+
+.migrone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:blue;
+  grid-column:1/3;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.migrtwo{
+  display:none;
+  background-color:pink;
+  grid-column:2;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.migrthree{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:yellow;
+  grid-column:3;
+  grid-row:1;
+  border-radius:20px;
+}
+
+.migrfour{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:pink;
+  grid-column:1;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.migrfive{
+  background-color:white;
+  background-image:url(imgs/migrateur2.jpg);
+  background-position: center;
+  grid-column:2;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.migrsix{
+  background-color:white;
+  background-image:url(imgs/migr3.jpg);
+  background-position: center;
+  grid-column:3;
+  grid-row:2;
+  border-radius:20px;
+}
+
+.migrseven{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:red;
+  grid-column:1/4;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.migreight{
+  display: none;
+  background-color:pink;
+  grid-column:2;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.migrnine{
+  display: none;
+  background-color:pink;
+  grid-column:3;
+  grid-row:3;
+  border-radius:20px;
+}
+
+.migrten{
+  background-color:white;
+  background-image:url(imgs/migrateur1.jpg);
+  background-position: center;
+  grid-column:1;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.migreleven{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:yellow;
+  grid-column:2;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.migrtwelve{
+  background-color:white;
+  background-image:url(imgs/migr2.jpg);
+  background-position: center;
+  grid-column:3;
+  grid-row:4;
+  border-radius:20px;
+}
+
+.migrthirteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:red;
+  grid-column:1;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.migrfourteen{
+  background-color:white;
+  background-image:url(imgs/migr1.jpg);
+  background-position: center;
+  grid-column:2;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.migrfifteen{
+  background-color: white;
+  background-image:url(imgs/migrateur3.jpg);
+  background-position: center;
+  grid-column:3;
+  grid-row:5;
+  border-radius:20px;
+}
+
+.migrsixteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87CEEB;
+  grid-column:1;
+  grid-row:6;
+  border-radius:20px;
+}
+
+.migrseventeen{
+  background-color:white;
+  grid-column:2;
+  grid-row:6;
+  border-radius:20px;
+}
+
+.migreighteen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  grid-column:3;
+  grid-row:6;
+  border-radius:20px;
+}
+
+/* fin page 4 */
+
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) and (orientation: landscape){
+
+
+
+h1{
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size:3.5em;
+  color: white;
+  line-height: 1.2em;
+  padding:5px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+a:hover{
+  color: blue;
+}
+
+#lieu{
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size:1.3em;
+}
+
+
+#info{
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size:1.3em;
+}
+
+#texte{
+  color: white;
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size:1.2em;
+}
+
+}
+/* pour le téléphone portable */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait){
+
+  .wrapper{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:20px;
+  grid-auto-rows:minmax(100px, auto);
+  height:150vh;
+  }
+
+  h1{
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size:5em;
+  color: white;
+  line-height: 1.2em;
+  padding:5px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+a:hover{
+  color: blue;
+}
+
+
+#lieu{
+  font-family: 'Fraunces', serif;
+  font-weight: 800;
+  font-size: 3.7em; 
+}
+
+
+#info{
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size:2.5em;
+}
+
+#texte{
+  color: white;
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size:2em;
+}
+
+.archione{
+  grid-column:1/3;
+  grid-row:1;
+}
+
+.architwo{
+  display:none;
+  grid-column:1;
+  grid-row:1;
+}
+
+.archithree{
+  grid-column:1;
+  grid-row:2;
+}
+
+.archifour{
+  grid-column:2;
+  grid-row:2;
+}
+
+.archifive{
+  grid-column:2;
+  grid-row:3;
+}
+
+.archisix{
+  grid-column:1;
+  grid-row:3;
+}
+
+.archiseven{
+  grid-column:1/3;
+  grid-row:4;
+}
+
+.archieight{
+  display: none;
+  grid-column:2;
+  grid-row:4;
+}
+
+.archinine{
+  display: none;
+  grid-column:2;
+  grid-row:4;
+}
+
+.architen{
+  grid-column:2;
+  grid-row:5;
+}
+
+.archieleven{
+  grid-column:1;
+  grid-row:5;
+}
+
+.architwelve{
+  grid-column:2;
+  grid-row:6;
+}
+
+.archithirteen{
+  grid-column:1;
+  grid-row:7;
+}
+
+.archifourteen{
+  min-height: 300px !important;
+  grid-column:1;
+  grid-row:6;
+}
+
+.archififteen{
+  grid-column:2;
+  grid-row:7;
+}
+
+.archisixteen{
+  display: none;
+  grid-column:1;
+  grid-row:8;
+}
+
+.archiseventeen{
+  grid-column:1;
+  grid-row:8;
+}
+
+.archieighteen{
+  background-color: #87CEEB;
+  grid-column:2;
+  grid-row:8;
+}
+
+/* page 2*/
+
+.papierone{
+  grid-column:1/3;
+  grid-row:1;
+}
+
+.papiertwo{
+  display:none;
+  grid-column:1;
+  grid-row:1;
+}
+
+.papierthree{
+  grid-column:1;
+  grid-row:2;
+}
+
+.papierfour{
+  grid-column:2;
+  grid-row:2;
+}
+
+.papierfive{
+  grid-column:1;
+  grid-row:3;
+}
+
+.papiersix{
+  grid-column:2;
+  grid-row:3;
+}
+
+.papierseven{
+  grid-column:1/3;
+  grid-row:4;
+  padding:40px;
+}
+
+.papiereight{
+  display: none;
+  grid-column:2;
+  grid-row:4;
+}
+
+.papiernine{
+  display: none;
+  grid-column:2;
+  grid-row:4;
+}
+
+.papierten{
+  grid-column:2;
+  grid-row:5;
+}
+
+.papiereleven{
+  grid-column:1;
+  grid-row:5;
+}
+
+.papiertwelve{
+  grid-column:2;
+  grid-row:6;
+}
+
+.papierthirteen{
+  grid-column:1;
+  grid-row:7;
+}
+
+.papierfourteen{
+  grid-column:1;
+  grid-row:6;
+}
+
+.papierfifteen{
+  min-height: 250px !important;
+  grid-column:2;
+  grid-row:7;
+}
+
+.papiersixteen{
+  grid-column:1;
+  grid-row:8;
+}
+
+.papierseventeen{
+  display: none;
+  grid-column:2;
+  grid-row:8;
+}
+
+.papiereighteen{
+  grid-column:2;
+  grid-row:8;
+}
+
+.papiernineteen{
+  grid-column:1;
+  grid-row:9;
+}
+
+.papiertwenty{
+  display: none;
+  grid-column:2;
+  grid-row:9;
+}
+
+.papiertwentyone{
+  grid-column:2;
+  grid-row:9;
+}
+
+
+
+/* fin page 2 */
+
+/* page 3 */
+
+.conteone{
+  grid-column:1/3;
+  grid-row:1;
+}
+
+.contetwo{
+  display: none;
+  grid-column:1;
+  grid-row:1;
+}
+
+.contethree{
+  grid-column:1;
+  grid-row:2;
+}
+
+.contefour{
+  grid-column:2;
+  grid-row:2;
+}
+
+.contefive{
+  grid-column:2;
+  grid-row:3;
+}
+
+.contesix{
+  grid-column:1;
+  grid-row:3;
+}
+
+.conteseven{
+  grid-column:1/3;
+  grid-row:4;
+}
+
+.conteeight{
+  display: none;
+  grid-column:1;
+  grid-row:4;
+}
+
+.contenine{
+  display: none;
+  grid-column:1;
+  grid-row:4;
+}
+
+.conteten{
+  min-height: 350px !important;
+  grid-column:1;
+  grid-row:5;
+}
+
+.conteeleven{
+  grid-column:2;
+  grid-row:5;
+}
+
+.contetwelve{
+  grid-column:1;
+  grid-row:6;
+}
+
+.contethirteen{
+  grid-column:2;
+  grid-row:7;
+}
+
+.contefourteen{
+  grid-column:1;
+  grid-row:7;
+}
+
+.contefifteen{
+  grid-column:2;
+  grid-row:6;
+}
+
+.contesixteen{
+  grid-column:1;
+  grid-row:8;
+}
+
+.conteseventeen{
+  display: none;
+  grid-column:1;
+  grid-row:8;
+}
+
+.conteeighteen{
+  grid-column:2;
+  grid-row:8;
+}
+
+/* fin page 3 */
+
+/* page 4 */
+
+.migrone{
+  grid-column:1/3;
+  grid-row:1;
+}
+
+.migrtwo{
+  display:none;
+  grid-column:1;
+  grid-row:1;
+}
+
+.migrthree{
+  grid-column:1;
+  grid-row:2;
+}
+
+.migrfour{
+  grid-column:2;
+  grid-row:3;
+}
+
+.migrfive{
+  grid-column:1;
+  grid-row:3;
+}
+
+.migrsix{
+  grid-column:2;
+  grid-row:2;
+}
+
+.migrseven{
+  grid-column:1/3;
+  grid-row:4;
+}
+
+.migreight{
+  display: none;
+  grid-column:2;
+  grid-row:4;
+}
+
+.migrnine{
+  display: none;
+  grid-column:2;
+  grid-row:4;
+}
+
+.migrten{
+  grid-column:2;
+  grid-row:5;
+}
+
+.migreleven{
+  grid-column:1;
+  grid-row:5;
+}
+
+.migrtwelve{
+  min-height: 300px !important;
+  grid-column:2;
+  grid-row:6;
+}
+
+.migrthirteen{
+  grid-column:1;
+  grid-row:7;
+}
+
+.migrfourteen{
+  grid-column:1;
+  grid-row:6;
+}
+
+.migrfifteen{
+  grid-column:2;
+  grid-row:7;
+}
+
+.migrsixteen{
+  grid-column:1;
+  grid-row:8;
+}
+
+.migrseventeen{
+  display: none;
+  grid-column:2;
+  grid-row:8;
+}
+
+.migreighteen{
+  grid-column:2;
+  grid-row:8;
+}
+
+/*fin page 4 */
+
+
+}
